@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apps Temporada 26-27</title>
+<!-- v3 · instalable en el teléfono como app -->
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#0E1E34">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Apps ILS">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Cormorant+Garamond:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root{--noche:#0E1E34;--azul:#152A47;--oro:#E2C275;--oro-suave:#C9A84C;--marfil:#F4F1EA;--texto:#E8ECF2;--tenue:#9AA8BC;--linea:rgba(226,194,117,.35)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:#0E1E34}
+body{min-height:100vh;background:radial-gradient(ellipse at top,#1B3354 0%,var(--azul) 45%,var(--noche) 100%);color:var(--texto);font-family:Jost,sans-serif;font-weight:300;padding:28px 16px 40px}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(1px 1px at 12% 18%,#fff8,transparent),radial-gradient(1px 1px at 78% 9%,#fff9,transparent),radial-gradient(1.5px 1.5px at 64% 32%,#fff6,transparent),radial-gradient(1px 1px at 30% 54%,#fff7,transparent),radial-gradient(1px 1px at 88% 61%,#fff8,transparent),radial-gradient(1.5px 1.5px at 8% 82%,#fff6,transparent),radial-gradient(1px 1px at 46% 90%,#fff7,transparent),radial-gradient(1px 1px at 92% 88%,#fff5,transparent)}
+.wrap{max-width:560px;margin:0 auto;border:1px solid var(--linea);padding:28px 18px 24px;position:relative}
+header{text-align:center;margin-bottom:26px}
+.kicker{font-size:11px;letter-spacing:.42em;color:var(--oro);text-transform:uppercase}
+h1{font-weight:300;font-size:30px;letter-spacing:.08em;color:var(--oro);text-transform:uppercase;margin:14px 0 6px;line-height:1.15}
+.sub{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:19px;color:var(--oro)}
+.cruz{display:block;margin:16px auto 0;width:46px;height:46px}
+.fase{margin-top:22px}
+.fase-h{display:flex;align-items:baseline;gap:10px;border-bottom:1px solid var(--linea);padding-bottom:6px;margin-bottom:10px}
+.fase-h b{font-weight:400;font-size:12px;letter-spacing:.28em;color:var(--oro);text-transform:uppercase}
+.fase-h span{font-size:12px;color:var(--tenue)}
+a.app{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--texto);background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:14px 14px;margin-bottom:8px;transition:border-color .2s,background .2s}
+a.app:hover,a.app:active{border-color:var(--oro);background:rgba(226,194,117,.08)}
+.estrella{flex:none;width:30px;height:30px;border:1px solid var(--oro-suave);border-radius:50%;display:grid;place-items:center;color:var(--oro);font-size:14px}
+.info{flex:1;min-width:0}
+.nombre{font-size:17px;font-weight:400;letter-spacing:.02em}
+.rol{font-size:13px;color:var(--tenue);margin-top:2px;line-height:1.4}
+.flecha{color:var(--oro);font-size:18px}
+.app.prox{opacity:.55;pointer-events:none;border-style:dashed}
+footer{text-align:center;margin-top:28px;font-size:10px;letter-spacing:.4em;color:var(--tenue)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="kicker">Temporada 2026 · 2027</div>
+<h1>Donde las estrellas<br>se alinean</h1>
+<div class="sub">Elige la app de tu rol en la operación</div>
+<svg class="cruz" viewBox="0 0 46 46" aria-hidden="true" fill="#E2C275"><path d="M23 4l1.4 4.2L28.6 9.6 24.4 11 23 15.2 21.6 11 17.4 9.6 21.6 8.2z"/><path d="M23 33l1.2 3.6 3.6 1.2-3.6 1.2L23 42.6l-1.2-3.6-3.6-1.2 3.6-1.2z"/><path d="M8 20l1 3 3 1-3 1-1 3-1-3-3-1 3-1z"/><path d="M38 17l1.1 3.3 3.3 1.1-3.3 1.1L38 25.8l-1.1-3.3-3.3-1.1 3.3-1.1z"/><circle cx="29" cy="27" r="1.3"/></svg>
+</header>
+
+<section class="fase">
+<div class="fase-h"><b>Llegada</b><span>Día -2 / -1</span></div>
+<a class="app" href="https://cruceros2026.github.io/traslado-aeropuerto/traslado-aeropuerto"><span class="estrella">✦</span><span class="info"><div class="nombre">Traslado Aeropuerto</div><div class="rol">Coordinador aeropuerto · Meet &amp; Greet · Porters</div></span><span class="flecha">›</span></a>
+<a class="app" href="https://cruceros2026.github.io/traslado-aeropuerto-multi/traslado-aeropuerto-multi"><span class="estrella">✦</span><span class="info"><div class="nombre">Traslado Aeropuerto · 2 Barcos</div><div class="rol">Días con 2 embarques simultáneos · mismo staff</div></span><span class="flecha">›</span></a>
+<a class="app" href="https://cruceros2026.github.io/HOSPITALITY-PAX-TRACKER/hospitality-pax-tracker"><span class="estrella">✦</span><span class="info"><div class="nombre">Hospitality Pax Tracker</div><div class="rol">Staff de Hospitality</div></span><span class="flecha">›</span></a>
+</section>
+
+<section class="fase">
+<div class="fase-h"><b>Journey</b><span>Día -1 → embarque en KGG</span></div>
+<a class="app" href="https://cruceros2026.github.io/JM_check_list/JM_check_list"><span class="estrella">✦</span><span class="info"><div class="nombre">Journey Manager</div><div class="rol">Journey Managers</div></span><span class="flecha">›</span></a>
+</section>
+
+<section class="fase">
+<div class="fase-h"><b>Embarque</b><span>Hotel → FBO</span></div>
+<a class="app" href="https://cruceros2026.github.io/Pull-Out/"><span class="estrella">✦</span><span class="info"><div class="nombre">Pull Out</div><div class="rol">Porters · chequeo de maletas</div></span><span class="flecha">›</span></a>
+<a class="app" href="https://cruceros2026.github.io/chequeo-bus-embarque/chequeo-bus-embarque"><span class="estrella">✦</span><span class="info"><div class="nombre">Chequeo Bus Embarque</div><div class="rol">Guías de bus · Coordinador FBO</div></span><span class="flecha">›</span></a>
+</section>
+
+<section class="fase">
+<div class="fase-h"><b>Desembarque</b><span>Aeropuerto → hotel</span></div>
+<a class="app" href="https://cruceros2026.github.io/DEBARK-OUT/"><span class="estrella">✦</span><span class="info"><div class="nombre">Debark</div><div class="rol">Staff de aeropuerto · Coordinador Hospitality</div></span><span class="flecha">›</span></a>
+</section>
+
+<section class="fase">
+<div class="fase-h"><b>Salidas</b><span>Día +1, +2, +3</span></div>
+<a class="app prox" href="#"><span class="estrella">✦</span><span class="info"><div class="nombre">Transfer Out</div><div class="rol">Próximamente</div></span><span class="flecha">›</span></a>
+</section>
+
+<footer>ILS TOURS · SILVERSEA · v3</footer>
+</div>
+<!-- ===== HALLOWEEN · INICIO (se activa solo del 20 oct al 1 nov; después desaparece sola) ===== -->
+<style>
+.hw-deco{position:absolute;pointer-events:none;z-index:0}
+.hw-fixed .hw-deco{position:fixed}
+.hw-on{background:linear-gradient(175deg,#0c0716 0%,#1d0f2e 55%,#2b1206 100%)!important}
+.hw-on .login-waves path:nth-child(1){fill:#160c24}
+.hw-on .login-waves path:nth-child(2){fill:#3a1846}
+.hw-on .login-waves path:nth-child(3){fill:#b8500f;opacity:.55}
+.hw-on .login-btn{background:#d0601a}
+.hw-on .login-btn:hover{background:#a84a10}
+.hw-on .login-version-badge{background:#e07a2a}
+.hw-moon{top:5%;right:7%;width:74px;height:74px;border-radius:50%;background:radial-gradient(circle at 38% 36%,#fff1cf 0%,#ffcf86 45%,#f0973f 100%);box-shadow:0 0 40px 12px rgba(255,150,60,.35),0 0 120px 40px rgba(255,120,40,.15)}
+.hw-fixed .hw-moon{display:none}
+.hw-fixed .hw-pumpkin{position:static;display:block;margin:14px auto 0;width:84px;height:82px}
+.hw-web2{top:0;left:0;width:170px;height:170px;opacity:.9}
+.hw-web2 g[stroke="#8C9AA6"]{stroke:#cfd6e0}
+.hw-web2 .cover-spider{transform-box:fill-box;transform-origin:50% 0%;animation:hwAranha 2.6s ease-in-out infinite}
+.hw-web2 .cover-spider g[fill]{fill:#ece6f5}.hw-web2 .cover-spider g[stroke]{stroke:#ece6f5}.hw-web2 .cover-spider line{stroke:#cfd6e0}
+@keyframes hwAranha{0%,100%{transform:rotate(-12deg)}50%{transform:rotate(12deg)}}
+.hw-pumpkin svg{width:100%;height:100%;display:block}
+.hw-pumpkin{transform-origin:50% 90%;animation:hwVaiven 3.2s ease-in-out infinite}
+@keyframes hwVaiven{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+.hw-web{top:0;left:0;width:150px;height:150px;opacity:.55}
+.hw-bat{width:46px;height:23px;top:12%;left:-60px;animation:hwVuelo 14s linear infinite}
+.hw-bat{filter:drop-shadow(0 0 3px rgba(255,140,60,.45))}
+.hw-bat svg{width:100%;height:100%;animation:hwAleteo .35s ease-in-out infinite alternate;transform-origin:50% 60%}
+.hw-bat.b2{top:22%;width:32px;height:16px;animation-duration:19s;animation-delay:-6s}
+.hw-bat.b3{top:7%;width:26px;height:13px;animation-duration:23s;animation-delay:-13s}
+@keyframes hwVuelo{0%{transform:translate(0,0)}25%{transform:translate(28vw,-30px)}50%{transform:translate(55vw,20px)}75%{transform:translate(82vw,-15px)}100%{transform:translate(115vw,10px)}}
+@keyframes hwAleteo{from{transform:scaleY(1)}to{transform:scaleY(.45)}}
+.hw-pumpkin{position:absolute;top:-46px;right:12px;width:74px;height:67px;z-index:2;pointer-events:none;filter:drop-shadow(0 4px 8px rgba(0,0,0,.35))}
+.hw-pumpkin .cara{animation:hwVela 2.4s ease-in-out infinite}
+@keyframes hwVela{0%,100%{opacity:1}40%{opacity:.75}55%{opacity:.95}70%{opacity:.6}}
+@media (prefers-reduced-motion:reduce){.hw-bat,.hw-bat svg,.hw-pumpkin .cara{animation:none}.hw-pumpkin,.hw-web2 .cover-spider{animation:none}.hw-bat{left:auto;right:18%}}
+</style>
+<script>
+(function(){try{
+  var q=(location.search.match(/halloween=(\d)/)||[])[1];
+  var d=new Date(),m=d.getMonth(),dia=d.getDate();
+  var temporada=(m===9&&dia>=20)||(m===10&&dia<=1);
+  if(q==='0'||(!temporada&&q!=='1'))return;
+  function armar(){
+    var host=document.getElementById('login-screen'),fijo=false;
+    if(!host){host=document.body;fijo=true;}
+    var card=document.querySelector('.login-card')||document.querySelector('.wrap');
+    host.classList.add('hw-on');
+    if(fijo)host.classList.add('hw-fixed');
+    var bat='<svg viewBox="0 0 64 32"><path fill="#0a0610" d="M32 11c-1-3-3-5-4-6l-1 4c-3-4-11-6-19-3 4 2 5 5 4 9 4-2 7-1 9 2 2-2 5-2 7 1l4 6 4-6c2-3 5-3 7-1 2-3 5-4 9-2-1-4 0-7 4-9-8-3-16-1-19 3l-1-4c-1 1-3 3-4 6z"/></svg>';
+    var r='',a=[[150,0],[146,40],[130,80],[100,112],[60,135],[0,150]];
+    a.forEach(function(p){r+='M0 0L'+p[0]+' '+p[1];});
+    [.3,.55,.8].forEach(function(f){for(var i=0;i<a.length-1;i++){var p=a[i],n=a[i+1];r+='M'+p[0]*f+' '+p[1]*f+'Q'+(p[0]+n[0])*f*.38+' '+(p[1]+n[1])*f*.38+' '+n[0]*f+' '+n[1]*f;}});
+    var html='<div class="hw-deco hw-moon"></div>'+
+      '<svg class="hw-deco hw-web2" viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"> <g stroke="#8C9AA6" stroke-width="0.9" fill="none" stroke-linecap="round" opacity="0.85"> <path d="M0 0 L100 0 M0 0 L100 32 M0 0 L88 64 M0 0 L64 88 M0 0 L32 100 M0 0 L0 100"/> <path d="M28.0 0.0 Q24.6 3.9 28.0 9.0 Q23.2 11.8 24.6 17.9 Q18.7 18.7 17.9 24.6 Q11.8 23.2 9.0 28.0 Q3.9 24.6 0.0 28.0 M50.0 0.0 Q44.0 7.0 50.0 16.0 Q41.4 21.1 44.0 32.0 Q33.4 33.4 32.0 44.0 Q21.1 41.4 16.0 50.0 Q7.0 44.0 0.0 50.0 M72.0 0.0 Q63.4 10.1 72.0 23.0 Q59.6 30.4 63.4 46.1 Q48.2 48.2 46.1 63.4 Q30.4 59.6 23.0 72.0 Q10.1 63.4 0.0 72.0 M94.0 0.0 Q82.7 13.2 94.0 30.1 Q77.8 39.7 82.7 60.2 Q62.9 62.9 60.2 82.7 Q39.7 77.8 30.1 94.0 Q13.2 82.7 0.0 94.0"/> </g> <g class="cover-spider"> <line x1="46" y1="46" x2="46" y2="74" stroke="#5A6670" stroke-width="0.8"/> <g fill="#1C1C22"> <ellipse cx="46" cy="80" rx="4.2" ry="5.2"/> <circle cx="46" cy="74" r="2.8"/> </g> <g stroke="#1C1C22" stroke-width="1.1" fill="none" stroke-linecap="round"> <path d="M42.5 78 L37 74 L35 70 M42.5 80.5 L36 80 L33 77 M42.5 83 L37 86 L35 90 M43.5 85 L40 89 L39 93"/> <path d="M49.5 78 L55 74 L57 70 M49.5 80.5 L56 80 L59 77 M49.5 83 L55 86 L57 90 M48.5 85 L52 89 L53 93"/> </g> </g> </svg>'+
+      '<div class="hw-deco hw-bat">'+bat+'</div><div class="hw-deco hw-bat b2">'+bat+'</div><div class="hw-deco hw-bat b3">'+bat+'</div>';
+    var tmp=document.createElement('div');tmp.innerHTML=html;
+    while(tmp.firstChild)host.insertBefore(tmp.firstChild,host.firstChild);
+    if(card){
+      var pk=document.createElement('div');pk.className='hw-pumpkin';
+      pk.innerHTML='<svg viewBox="80 190 480 470" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"> <defs> <radialGradient id="pkBack" cx="40%" cy="35%" r="75%"><stop offset="0%" stop-color="#FF6A00"/><stop offset="100%" stop-color="#A83200"/></radialGradient> <radialGradient id="pkFront" cx="42%" cy="30%" r="80%"><stop offset="0%" stop-color="#FFA040"/><stop offset="50%" stop-color="#FF6A00"/><stop offset="100%" stop-color="#A83200"/></radialGradient> <radialGradient id="pkFire" cx="50%" cy="45%" r="65%"><stop offset="0%" stop-color="#FFF4B0"/><stop offset="45%" stop-color="#FFC21A"/><stop offset="100%" stop-color="#E05A00"/></radialGradient> <linearGradient id="pkStem" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#5A4A2E"/><stop offset="100%" stop-color="#2A2116"/></linearGradient> <filter id="pkBlur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter> </defs> <ellipse cx="208" cy="476" rx="118" ry="160" fill="url(#pkBack)"/> <ellipse cx="432" cy="476" rx="118" ry="160" fill="url(#pkBack)"/> <ellipse cx="258" cy="478" rx="112" ry="170" fill="url(#pkFront)"/> <ellipse cx="382" cy="478" rx="112" ry="170" fill="url(#pkFront)"/> <ellipse cx="320" cy="480" rx="96" ry="176" fill="url(#pkFront)"/> <path d="M258 326 Q236 478 258 636 M382 326 Q404 478 382 636" stroke="#A83200" stroke-width="4" fill="none" opacity="0.6" stroke-linecap="round"/> <path d="M306 318 C300 276 296 240 318 206 C324 198 336 202 334 212 C322 240 326 276 336 316 Z" fill="url(#pkStem)"/> <path d="M330 214 C350 196 372 200 380 214" stroke="#2A2116" stroke-width="4" fill="none" stroke-linecap="round"/> <g filter="url(#pkBlur)" opacity="0.9" fill="#FFC21A"> <path d="M228 404 L296 436 L254 482 Z"/><path d="M412 404 L344 436 L386 482 Z"/> <path d="M206 520 L240 534 L252 518 L270 542 L290 528 L306 550 L320 532 L334 550 L350 528 L370 542 L388 518 L400 534 L434 520 Q408 604 320 616 Q232 604 206 520 Z"/> </g> <g fill="url(#pkFire)" stroke="#5A1E00" stroke-width="3" stroke-linejoin="round"> <path d="M228 404 L296 436 L254 482 Z"/><path d="M412 404 L344 436 L386 482 Z"/><path d="M320 474 L304 504 L336 504 Z"/> <path d="M206 520 L240 534 L252 518 L270 542 L290 528 L306 550 L320 532 L334 550 L350 528 L370 542 L388 518 L400 534 L434 520 Q408 604 320 616 Q232 604 206 520 Z"/> </g> <g fill="#FF6A00" stroke="#5A1E00" stroke-width="3" stroke-linejoin="round"> <path d="M262 600 L276 572 L290 606 Z"/><path d="M310 614 L322 584 L334 614 Z"/><path d="M352 606 L364 574 L378 598 Z"/> </g> <path d="M246 392 Q262 380 300 404 M394 392 Q378 380 340 404" stroke="#5A1E00" stroke-width="6" fill="none" stroke-linecap="round"/> </svg>';
+      var hd=fijo&&document.querySelector('header');(hd||card).appendChild(pk);
+    }
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',armar);else armar();
+}catch(e){}})();
+</script>
+<!-- ===== HALLOWEEN · FIN ===== -->
+</body>
+</html>
